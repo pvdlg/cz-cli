@@ -20,9 +20,6 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
-    },
-    "ghooks": {
-      "pre-commit": "npm run lint && npm run test && npm run check-coverage"
     }
   },
   "homepage": "https://github.com/commitizen/cz-cli",
@@ -68,7 +65,7 @@
     "nodemon": "1.18.4",
     "nyc": "13.0.1",
     "proxyquire": "^2.1.0",
-    "semantic-release": "^15.9.16",
+
     "semver": "5.5.1",
     "sinon": "^6.3.4"
   },
